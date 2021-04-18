@@ -10,6 +10,8 @@ jobs:
         run: |
           pwd
           ls
+      - name: Checkout
+        uses: tobbablo/githubactions@v1
       - name: Simple JS Actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
